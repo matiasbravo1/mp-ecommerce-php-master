@@ -8,7 +8,7 @@ foreach ($_GET as $key => $value) {
 }
 
 $myfile = fopen("webhooks_output.txt", "a");
-fwrite($myfile, date('m/d/Y h:i:s a', time()) . " " . $response);
+fwrite($myfile, date('m/d/Y h:i:s a', time()) . " " . $response . "|||" . file_get_contents("php://input"));
 fclose($myfile);
 
 
