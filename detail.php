@@ -38,7 +38,7 @@ $payer->phone = array(
 );
 $payer->address = array(
     "street_name" => 'False',
-    "street_number" => '123',
+    "street_number" => 123,
     "zip_code" => '1111'
 );
 
