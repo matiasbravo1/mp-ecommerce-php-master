@@ -36,7 +36,7 @@ $payer->phone = array(
     "area_code" => '11',    
     "number" => '22223333'
 );
-$payer->address = array(
+$payer->address = (object) array(
     "street_name" => 'False',
     "street_number" => 123,
     "zip_code" => '1111'
@@ -63,7 +63,7 @@ $preference->items = $item_array;
 
 $preference->external_reference = 'matiasbravo83@gmail.com';
 
-$preference->auto_return = 'all';
+$preference->auto_return = 'approved';
 
 $preference->back_urls = array("success" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/success.php","failure" =>"https://matiasbravo1-mp-commerce-php.herokuapp.com/failure.php","pending" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/pending.php");
 
