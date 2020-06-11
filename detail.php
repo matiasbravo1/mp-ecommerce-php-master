@@ -65,7 +65,7 @@ $preference->external_reference = 'matiasbravo83@gmail.com';
 
 $preference->auto_return = 'all';
 
-$preference->back_urls = array("success" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/success.php","failure" =>"https://matiasbravo1-mp-commerce-php.herokuapp.com/failure.php","pending" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/pending.php");
+$preference->back_urls = array("success" => "https://emercari.net/MercadoPago/success.php","failure" =>"https://emercari.net/MercadoPago/failure.php","pending" => "https://emercari.net/MercadoPago/pending.php");
 
 $preference->payer = $payer;
 
@@ -75,7 +75,7 @@ $preference->payment_methods = array(
     "installments" => 6
 );
 
-$preference->notification_url = "https://matiasbravo1-mp-commerce-php.herokuapp.com/webhooks.php";
+$preference->notification_url = "https://emercari.net/MercadoPago/webhooks.php";
 
 $preference->save();
 
