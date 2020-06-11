@@ -54,7 +54,7 @@ $item->quantity = $unit;
 $item->unit_price = $price;
 $item->currency_id = 'ARS';
 $item->description = 'Dispositivo móvil de Tienda e-commerce';
-$item->picture_url = 'http://'.$_SERVER["HTTP_HOST"].substr($img,1);
+$item->picture_url = 'https://'.$_SERVER["HTTP_HOST"].substr($img,1);
 
 $item_array[] = $item;
 
@@ -65,7 +65,7 @@ $preference->external_reference = 'matiasbravo83@gmail.com';
 
 $preference->auto_return = 'all';
 
-$preference->back_urls = array("success" => "http://localhost/mp-ecommerce-php-master/success.php","failure" =>"http://localhost/mp-ecommerce-php-master/failure.php","pending" => "http://localhost/mp-ecommerce-php-master/pending.php");
+$preference->back_urls = array("success" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/success.php","failure" =>"https://matiasbravo1-mp-commerce-php.herokuapp.com/failure.php","pending" => "https://matiasbravo1-mp-commerce-php.herokuapp.com/pending.php");
 
 $preference->payer = $payer;
 
@@ -75,7 +75,7 @@ $preference->payment_methods = array(
     "installments" => 6
 );
 
-$preference->notification_url = "http://localhost/mp-ecommerce-php-master/webhooks.php";
+$preference->notification_url = "https://matiasbravo1-mp-commerce-php.herokuapp.com/webhooks.php";
 
 $preference->save();
 
