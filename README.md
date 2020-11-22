@@ -1,6 +1,6 @@
 # mp-ecommerce
 
-Este e-commerce de ejemplo será la base para la integración de MercadoPago con `php`.
+Este e-commerce de ejemplo fue el ejercicio realizado para la certificación de MercadoPago con `php`.
 
 ## Antes de comenzar
 
